@@ -1,0 +1,24 @@
+<section id="feature_hovers">
+	<div class="shadow-divide-bg"></div>
+	<div class="center-container">
+		<div class="column">
+			<% @feature_hovers.each do |feature| %>
+				<%= link_to feature.link, :id => "feature#{feature.position}", :class => "feature" do %>
+						<span><%= feature.title %></span>
+				<% end %>
+			<% end %>
+		</div>
+		<div class="column">
+			<% @feature_hovers.each do |feature| %>
+				<div id="feature<%= feature.position %>-text" class="feature-text">
+					<h1><%= feature.title %></h1>
+					<%= feature.description.html_safe %>
+				</div>
+			<% end %>
+		</div>
+	</div>
+</section>
+
+<% content_for :javascripts do %>
+  <%= javascript_include_tag 'feature_hovers' %>
+<% end %>

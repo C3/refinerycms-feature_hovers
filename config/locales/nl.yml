@@ -1,0 +1,29 @@
+nl:
+  refinery:
+    plugins:
+      feature_hovers:
+        title: Feature Hovers
+    feature_hovers:
+      admin:
+        feature_hovers:
+          actions:
+            create_new: Maak een nieuwe Feature Hover
+            reorder: Wijzig de volgorde van de Feature Hovers
+            reorder_done: Klaar met het wijzingen van de volgorde van de Feature Hovers
+          records:
+            title: Feature Hovers
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Feature Hovers. Druk op 'Maak een nieuwe Feature Hover' om de eerste aan te maken.
+          feature_hover:
+            view_live_html: Bekijk deze feature hover op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze feature hover
+            delete: Verwijder deze feature hover voor eeuwig
+      feature_hovers:
+        show:
+          other: Andere Feature Hovers
+  activerecord:
+    attributes:
+      'refinery/feature_hovers/feature_hover':
+        title: Title
+        icon: Icon
+        description: Description

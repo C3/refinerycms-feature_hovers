@@ -1,0 +1,29 @@
+en:
+  refinery:
+    plugins:
+      feature_hovers:
+        title: Feature Hovers
+    feature_hovers:
+      admin:
+        feature_hovers:
+          actions:
+            create_new: Add New Feature Hover
+            reorder: Reorder Feature Hovers
+            reorder_done: Done Reordering Feature Hovers
+          records:
+            title: Feature Hovers
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Feature Hovers yet. Click "Add New Feature Hover" to add your first feature hover.
+          feature_hover:
+            view_live_html: View this feature hover live <br/><em>(opens in a new window)</em>
+            edit: Edit this feature hover
+            delete: Remove this feature hover forever
+      feature_hovers:
+        show:
+          other: Other Feature Hovers
+  activerecord:
+    attributes:
+      'refinery/feature_hovers/feature_hover':
+        title: Title
+        icon: Icon
+        description: Description

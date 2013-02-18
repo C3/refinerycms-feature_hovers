@@ -1,0 +1,29 @@
+nb:
+  refinery:
+    plugins:
+      feature_hovers:
+        title: Feature Hovers
+    feature_hovers:
+      admin:
+        feature_hovers:
+          actions:
+            create_new: Lag en ny Feature Hover
+            reorder: Endre rekkefølgen på Feature Hovers
+            reorder_done: Ferdig å endre rekkefølgen Feature Hovers
+          records:
+            title: Feature Hovers
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Feature Hovers enda. Klikk på "Lag en ny Feature Hover" for å legge til din første feature hover.
+          feature_hover:
+            view_live_html: Vis hvordan denne feature hover ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne feature hover
+            delete: Fjern denne feature hover permanent
+      feature_hovers:
+        show:
+          other: Andre Feature Hovers
+  activerecord:
+    attributes:
+      'refinery/feature_hovers/feature_hover':
+        title: Title
+        icon: Icon
+        description: Description

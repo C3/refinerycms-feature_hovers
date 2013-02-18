@@ -1,0 +1,29 @@
+sk:
+  refinery:
+    plugins:
+      feature_hovers:
+        title: Feature Hovers
+    feature_hovers:
+      admin:
+        feature_hovers:
+          actions:
+            create_new: Pridať Feature Hover
+            reorder: Preusporiadať Feature Hovers
+            reorder_done: Koniec radenia Feature Hovers
+          records:
+            title: Feature Hovers
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne Feature Hovers. Kliknite na "Pridať Feature Hover" pre pridanie prvého feature hover.
+          feature_hover:
+            view_live_html: Zobraziť náhľad feature hover<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť feature hover
+            delete: Zmazať feature hover
+      feature_hovers:
+        show:
+          other: Daľšie Feature Hovers
+  activerecord:
+    attributes:
+      'refinery/feature_hovers/feature_hover':
+        title: Title
+        icon: Icon
+        description: Description

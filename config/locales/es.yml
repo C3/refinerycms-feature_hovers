@@ -1,0 +1,30 @@
+es:
+  refinery:
+    plugins:
+      feature_hovers:
+        title: Feature Hovers
+#        article: masculino/femenino
+    feature_hovers:
+      admin:
+        feature_hovers:
+          actions:
+            create_new: Crear nuevo feature hover
+            reorder: Reordenar feature hovers
+            reorder_done: Reordenación de feature hovers completada
+          records:
+            title: Feature Hovers
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay feature hovers todavía. Pulsa en "Crear nuevo Feature Hover" para crear tu primer feature hover.
+          feature_hover:
+            view_live_html: Ver este feature hover como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este feature hover
+            delete: Borrar este feature hover para siempre
+      feature_hovers:
+        show:
+          other: Otros feature hovers
+  activerecord:
+    attributes:
+      'refinery/feature_hovers/feature_hover':
+        title: Title
+        icon: Icon
+        description: Description
