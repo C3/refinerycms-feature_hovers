@@ -3,6 +3,7 @@
 Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.name              = 'refinerycms-feature_hovers'
+  s.authors           = ['Peter Hollows']
   s.version           = '1.0'
   s.description       = 'Ruby on Rails Feature Hovers extension for Refinery CMS'
   s.date              = '2012-10-11'
