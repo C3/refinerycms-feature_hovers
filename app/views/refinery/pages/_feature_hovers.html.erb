@@ -3,7 +3,7 @@
   <div class="center-container">
     <div class="column">
       <% @feature_hovers.each do |feature| %>
-        <%= link_to feature.link, :id => "feature#{feature.position}", :class => "feature" do %>
+        <%= link_to feature.link, :id => "feature#{feature.position}", :class => "feature", :target => '_blank' do %>
           <%= content_tag 'span', feature.title %>
         <% end %>
       <% end %>
