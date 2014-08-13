@@ -13,6 +13,9 @@
         <div id="feature<%= feature.position %>-text" class="feature-text">
           <h1><%= feature.title %></h1>
           <%= feature.description.html_safe %>
+          <% if feature.link.gsub('#', '').present? %>
+          <p><%= link_to 'Read more &hellip;'.html_safe, feature.link, :title => feature.title, :target => '_blank' %></p>
+          <% end %>
         </div>
       <% end %>
     </div>
